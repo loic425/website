@@ -12,6 +12,16 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        poppins: ['Poppins', ...defaultTheme.fontFamily.sans]
+      },
+      colors: {
+        'navy-blue': '#232946',
+        'sky-blue': '#36406d',
+        pink: '#eebbc3',
+        white: '#fffffe',
+        blue: '#b8c1ec',
+        'dark-blue': '#a1a9cf',
+        'dark-pink': '#c7939b',
       },
     },
   },

@@ -25,3 +25,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
   main.onclick = function() { show(); }
   closeButton.onclick = function() { hide(); }
 });
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 400) {
+    $('#chevron').removeClass('hidden');
+  } else {
+    $('#chevron').addClass('hidden');
+  }
+});
